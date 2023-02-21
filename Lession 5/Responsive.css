@@ -1,0 +1,61 @@
+@media screen and (max-width: 1261px) and (min-width: 964px) {
+  .FigureInfo {
+    justify-content: center;
+    gap: 174px;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  .Comment {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 15px auto;
+  }
+
+  .Image {
+    top: 30px;
+    left: 148px;
+    width: 425px;
+    border-radius: 50%;
+  }
+
+  .Button {
+    top: 206px;
+    left: 530px;
+  }
+
+  .Info {
+    top: 363px;
+    left: 146px;
+  }
+
+  .Body_1 {
+    text-align: center;
+    margin-top: 580px;
+  }
+
+  .FigureInfo {
+    justify-content: space-evenly;
+    row-gap: 70px;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .Image {
+    top: 30px;
+    left: 48px;
+    width: 425px;
+    border-radius: 50%;
+  }
+
+  .Button {
+    top: 206px;
+    left: 430px;
+  }
+
+  .Info {
+    top: 363px;
+    left: 46px;
+  }
+}
