@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root{
+    color: #ffffff;
+}
+
+.Khung{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #000000;
+    border-radius: 70px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #581DFF;
+}
+
+li{
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.Icon{
+    position: absolute;
+    width: 166px;
+    height: 48px;
+    left: 70px;
+    top: 27px;
+    padding: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+
+    background: linear-gradient(93.99deg, #1DFFAE 8.13%, #581DFF 120.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.Home{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    left: 407px;
+    top: 27px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Project{
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    left: 547px;
+    top: 27px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.About{
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    left: 719px;
+    top: 27px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Contact{
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    left: 891px;
+    top: 27px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.n404{
+    position: absolute;
+    width: 405px;
+    height: 252px;
+    left: 70px;
+    top: 174px;
+    
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 200px;
+    line-height: 252px;
+}
+
+.Page{
+    position: absolute;
+    width: 437px;
+    height: 72px;
+    left: 70px;
+    top: 466px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 72px;
+}
+
+.Sorry{
+    position: absolute;
+    width: 651px;
+    height: 80px;
+    left: 70px;
+    top: 578px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.Back{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 70px;
+    top: 810px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #581DFF;
+}
+
+.Back:hover{
+    color: #1DFFAE;
+}
+
+.Pic{
+    margin-left: 742px;
+    border-radius: 70px;
+}
