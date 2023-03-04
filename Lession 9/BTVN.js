@@ -52,17 +52,39 @@ console.log("Danh sách các sản phẩm thuộc category: women's clothing" , 
 
 console.log("");
 // Bài tập 4
+// Cách 1:
+// function listCategory(arr){
+//     let lengthArr = arr.length;
+//     let newArr = [];
+//     for (let i = 1; i <= lengthArr; i++){
+//         if (newArr.indexOf(arr[i]?.category) === -1){
+//             newArr.push(arr[i]?.category);
+//         }
+//     }
+//     newArr.pop();
+//     return newArr;
+// }
+
+// Cách 2:
 function listCategory(arr){
-    let lengthArr = arr.length;
     let newArr = [];
-    for (let i = 1; i <= lengthArr; i++){
-        if (newArr.indexOf(arr[i]?.category) === -1){
-            newArr.push(arr[i]?.category);
+    for (let i = 0; i < arr.length; i++){
+        if (!newArr.includes(arr[i].category)){
+            newArr.push(arr[i].category);
         }
     }
-    newArr.pop();
     return newArr;
 }
+
+// Cách 3:
+// function listCategory(arr){
+//     let tArr = [];
+//     for (let i = 0; i < arr.length; i++){
+//         tArr.push(arr[i].category);
+//     }
+//     let newArr = new Set(tArr);
+//     return newArr;
+// }
 
 console.log("Danh sách các category: ", listCategory(products));
 
